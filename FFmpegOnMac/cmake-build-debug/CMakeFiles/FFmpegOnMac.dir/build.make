@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/fanlv/Desktop/CPPTest/FFmpegOnMac
+CMAKE_SOURCE_DIR = /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FFmpegOnMac.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/FFmpegOnMac.dir/flags.make
 
 CMakeFiles/FFmpegOnMac.dir/main.cpp.o: CMakeFiles/FFmpegOnMac.dir/flags.make
 CMakeFiles/FFmpegOnMac.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FFmpegOnMac.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpegOnMac.dir/main.cpp.o -c /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FFmpegOnMac.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpegOnMac.dir/main.cpp.o -c /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main.cpp
 
 CMakeFiles/FFmpegOnMac.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FFmpegOnMac.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/main.cpp > CMakeFiles/FFmpegOnMac.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main.cpp > CMakeFiles/FFmpegOnMac.dir/main.cpp.i
 
 CMakeFiles/FFmpegOnMac.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FFmpegOnMac.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/main.cpp -o CMakeFiles/FFmpegOnMac.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main.cpp -o CMakeFiles/FFmpegOnMac.dir/main.cpp.s
 
 CMakeFiles/FFmpegOnMac.dir/main.cpp.o.requires:
 
@@ -81,17 +81,43 @@ CMakeFiles/FFmpegOnMac.dir/main.cpp.o.provides: CMakeFiles/FFmpegOnMac.dir/main.
 CMakeFiles/FFmpegOnMac.dir/main.cpp.o.provides.build: CMakeFiles/FFmpegOnMac.dir/main.cpp.o
 
 
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o: CMakeFiles/FFmpegOnMac.dir/flags.make
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o: ../main_ffmpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o -c /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main_ffmpeg.cpp
+
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main_ffmpeg.cpp > CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.i
+
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/main_ffmpeg.cpp -o CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.s
+
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.requires:
+
+.PHONY : CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.requires
+
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.provides: CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FFmpegOnMac.dir/build.make CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.provides.build
+.PHONY : CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.provides
+
+CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.provides.build: CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o
+
+
 # Object files for target FFmpegOnMac
 FFmpegOnMac_OBJECTS = \
-"CMakeFiles/FFmpegOnMac.dir/main.cpp.o"
+"CMakeFiles/FFmpegOnMac.dir/main.cpp.o" \
+"CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o"
 
 # External object files for target FFmpegOnMac
 FFmpegOnMac_EXTERNAL_OBJECTS =
 
 FFmpegOnMac: CMakeFiles/FFmpegOnMac.dir/main.cpp.o
+FFmpegOnMac: CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o
 FFmpegOnMac: CMakeFiles/FFmpegOnMac.dir/build.make
 FFmpegOnMac: CMakeFiles/FFmpegOnMac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FFmpegOnMac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FFmpegOnMac"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FFmpegOnMac.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +126,7 @@ CMakeFiles/FFmpegOnMac.dir/build: FFmpegOnMac
 .PHONY : CMakeFiles/FFmpegOnMac.dir/build
 
 CMakeFiles/FFmpegOnMac.dir/requires: CMakeFiles/FFmpegOnMac.dir/main.cpp.o.requires
+CMakeFiles/FFmpegOnMac.dir/requires: CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o.requires
 
 .PHONY : CMakeFiles/FFmpegOnMac.dir/requires
 
@@ -108,6 +135,6 @@ CMakeFiles/FFmpegOnMac.dir/clean:
 .PHONY : CMakeFiles/FFmpegOnMac.dir/clean
 
 CMakeFiles/FFmpegOnMac.dir/depend:
-	cd /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fanlv/Desktop/CPPTest/FFmpegOnMac /Users/fanlv/Desktop/CPPTest/FFmpegOnMac /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles/FFmpegOnMac.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles/FFmpegOnMac.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FFmpegOnMac.dir/depend
 

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/fanlv/Desktop/CPPTest/FFmpegOnMac
+CMAKE_SOURCE_DIR = /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/FFmpegOnMac.dir/build.make CMakeFiles/FFmpegOnMac.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_ffmpeg.o: main_ffmpeg.cpp.o
+
+.PHONY : main_ffmpeg.o
+
+# target to build an object file
+main_ffmpeg.cpp.o:
+	$(MAKE) -f CMakeFiles/FFmpegOnMac.dir/build.make CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o
+.PHONY : main_ffmpeg.cpp.o
+
+main_ffmpeg.i: main_ffmpeg.cpp.i
+
+.PHONY : main_ffmpeg.i
+
+# target to preprocess a source file
+main_ffmpeg.cpp.i:
+	$(MAKE) -f CMakeFiles/FFmpegOnMac.dir/build.make CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.i
+.PHONY : main_ffmpeg.cpp.i
+
+main_ffmpeg.s: main_ffmpeg.cpp.s
+
+.PHONY : main_ffmpeg.s
+
+# target to generate assembly for a file
+main_ffmpeg.cpp.s:
+	$(MAKE) -f CMakeFiles/FFmpegOnMac.dir/build.make CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.s
+.PHONY : main_ffmpeg.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_ffmpeg.o"
+	@echo "... main_ffmpeg.i"
+	@echo "... main_ffmpeg.s"
 .PHONY : help
 
 

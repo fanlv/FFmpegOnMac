@@ -1,4 +1,4 @@
-# Install script for directory: /Users/fanlv/Desktop/CPPTest/FFmpegOnMac
+# Install script for directory: /Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/fanlv/Desktop/CPPTest/FFmpegOnMac/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/fanlv/Documents/GitHub/FFmpegOnMac/FFmpegOnMac/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

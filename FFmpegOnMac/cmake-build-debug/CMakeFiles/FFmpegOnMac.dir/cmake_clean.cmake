@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FFmpegOnMac.dir/main.cpp.o"
+  "CMakeFiles/FFmpegOnMac.dir/main_ffmpeg.cpp.o"
   "FFmpegOnMac.pdb"
   "FFmpegOnMac"
 )
