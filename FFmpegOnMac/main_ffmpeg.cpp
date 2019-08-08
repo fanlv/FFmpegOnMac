@@ -79,8 +79,11 @@ int main(int argc, char* argv[])
 
     struct SwsContext *img_convert_ctx;
 
-    char filepath[]="../cuc_ieschool.mp4";
+//    char filepath[]="../cuc_ieschool.mp4";
+//    char filepath[]="http://223.110.243.158/PLTV/3/224/3221227400/1.m3u8";
+    char filepath[]="http://103.233.191.138/ch5/info_ch5.live/playlist.m3u8";
 
+    //1.register and init net work
     av_register_all();
     avformat_network_init();
     pFormatCtx = avformat_alloc_context();
